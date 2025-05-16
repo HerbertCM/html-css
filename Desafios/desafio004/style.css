@@ -1,0 +1,119 @@
+@font-face{
+    font-family: 'android';
+    src: url('fontes/idroid.otf') format(opentype);
+    font-weight: normal;
+    font-style: normal;
+}
+*{
+    border: 0;
+    margin: 0;
+}
+body{
+    background-color: rgb(121, 218, 121);
+}
+header{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: linear-gradient(to bottom, #5db71c,rgb(17, 116, 44));
+    width: 100%;
+    padding-bottom: 5px;
+    padding-top: 10px;
+}
+h1{
+    margin-left: 10px;
+}
+h1#titulo{
+    text-align: center;
+    text-shadow: 5px 5px 5px black;
+    margin: 10px;
+    font-size: 40px;
+}
+h1#corpo{
+    font-family: 'android';
+    color: rgb(0, 87, 0);
+}
+h2{
+    padding-left: 10px;
+}
+h2#titulo{
+    text-align: center;
+    text-shadow: 5px 5px 5px black;
+    margin: 20px;
+    font-size: 15px;
+}
+h2.corpo{
+    background-image: linear-gradient(to right, rgba(0, 128, 0, 0.668), white);
+    font-family: 'android';
+    color: rgb(0, 87, 0);
+    margin-left: 10px;
+}
+div#principal{
+    background-color: white;
+    margin: auto;
+    width: 800px;
+    border-radius: 0px 0px 15px 15px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.427);
+}
+div#interna{
+    background-color: lightgray;
+    margin: auto;
+    width: 780px;
+    border-radius: 15px;
+    height: 480px;
+    background-color: rgb(165, 201, 165);;
+}
+div#extra{
+    background-color: green;
+    width: 780px;
+    height: 30px;
+    border-radius: 15px 15px 0px 0px;
+}
+footer{
+    background-color: green;
+    text-align: center;
+    width: 100%;
+    padding-bottom: 2px;
+}
+p{
+    margin: 10px;
+    text-indent: 50px;
+    text-align: justify;
+}
+p#mais{
+    color: white;
+    font-size: 19px;
+    padding-top: 5px;
+    padding-left: 5px;
+    text-indent: 0px;
+}
+img{
+    display: block;
+    margin: auto;
+}
+iframe{
+    display: block;
+    margin: auto;
+    border-width: 20px 120px;
+    border-color: green;
+    border-style: solid;
+}
+a{
+    margin: 10px;
+    text-decoration: none;
+    color: white;
+}
+a.corpo{
+    color: green;
+    text-decoration: none;
+    font-weight: bold;
+}
+strong{
+    color: green;
+}
+nav{
+    display: inline;
+    padding: 0px 15px;
+}
+nav:hover{
+    background-color: yellowgreen;
+}
