@@ -36,14 +36,41 @@ section.conteudo{
     margin: 30px 20px;
 }
 section.fundo1{
+    position: relative;
     font-family: 'Sriracha', sans-serif;
     font-size: 30px;
     background: black url(imagens/background001.jpg) center center no-repeat fixed;
-    background-size: 100%;
+    background-size: cover;
+    height: 700px;
+    margin: 100px 0px;
 }
 section.fundo2{
+    position: relative;
     font-family: 'Sriracha', sans-serif;
     font-size: 30px;
+    position: relative;
     background: black url(imagens/background002.jpg) center center no-repeat fixed;
-    background-size: 100%; 
+    background-size: cover;
+    height: 700px;
+    margin: 100px 0px;
+}
+article.fundo{
+    position: absolute;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.274);
+    max-width: 400px;
+    min-width: 200px;
+    top: 50%;
+    left: 5%;
+    transform: translate(-10%, -50%);
+    padding: 20px;
+}
+footer{
+    font-family: 'Sriracha', sans-serif;
+    font-size: 15px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin-top: 150px;
 }
